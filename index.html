@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html class="linux js" dir="ltr" lang="fr"><head>
+    <!-- This page is based on the Firefox partners model. Thanks a lot to all the Firefox team for Firefox, and
+	 this great page model too. -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Shinken-monitoring.org</title>
+
+    
+    <link href="fichiers/tabzilla-clean.css" rel="stylesheet">    
+    
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    
+    <link href="fichiers/jquery.pageslide.css" rel="stylesheet">    
+    <script src="fichiers/jquery.pageslide.min.js"></script>
+    <script src="fichiers/TweenMax.min.js"></script>
+    <script src="fichiers/jquery.superscrollorama.js"></script>
+    <script src="fichiers/enquire.min.js"></script>
+    <script src="fichiers/modernizr.min.js"></script>
+    
+    <!--[if lte IE 8]>
+	<script src="//mozorg.cdn.mozilla.net/media/js/libs/html5shiv.js"></script>
+	<![endif]-->
+
+
+    <link rel="stylesheet" media="screen,projection,tv" href="fichiers/responsive.css">    
+    <link rel="stylesheet" media="screen,projection,tv" href="fichiers/partners.css">
+
+    <!--[if lte IE 7]>
+	<link rel="stylesheet" media="screen,projection,tv" href="//mozorg.cdn.mozilla.net/media/css/partners-ie7-min.css?build=a859779" />
+	<![endif]-->
+    <script id="undefined" src="fichiers/inpage_linkid.js" async="" type="text/javascript"></script>
+    <script src="fichiers/ga.js" async=""
+	    type="text/javascript"></script>
+    <script>
+      COMMON_JS_FILES = [];//"fichiers/common.js"];
+      MOBILE_JS_FILES = ["//mozorg.cdn.mozilla.net/media/js/partners_mobile-min.js?build=a859779"];
+      DESKTOP_JS_FILES = ["fichiers/desktop.js"];
+    </script>
+    <script src="fichiers/common.js"></script>
+    <script src="fichiers/desktop.js"></script>
+
+    <meta property="og:url" content="http://www.shinken-monitoring.org/">
+    <meta property="og:site_name" content="Shinken">
+    <meta property="og:title" content="Shinken Monitoring">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="We’re buiding a great monitoring tool, focus on large env, with complex architecture">
+    
+
+    <script src="fichiers/site-min.js"></script>
+
+  </head>
+  
+  <body id="firefox-partners" class="html-ltr sky">
+    <div tabindex="-1" class="tabzilla-closed" id="tabzilla-panel">
+      <div id="tabzilla-contents">  
+	<div id="tabzilla-promo">    
+	  <div class="snippet" id="tabzilla-promo-mwc">    
+	    <a href="https://www.mozilla.org/firefox/partners/">     
+	      <h4>Débuts de Firefox OS <span>au Mobile World Congress&nbsp;!</span></h4>     
+	      <p>En savoir plus »</p>
+	    </a>
+	  </div>
+	</div>
+	<div id="tabzilla-nav">
+	  <ul>
+	    <li>
+	      <h2>Mozilla</h2>
+              <ul> 
+		<li>
+		  <a href="https://www.mozilla.org/mission/">Mission</a>
+		</li>
+		<li>
+		  <a href="https://www.mozilla.org/about/">À propos</a>
+		</li>
+		<li>
+		  <a href="https://www.mozilla.org/projects/">Projets</a>
+		</li>
+		<li>
+		  <a href="https://support.mozilla.org/">Assistance</a>
+		</li>
+		<li>
+		  <a href="https://developer.mozilla.org/">Réseau développeurs</a>
+		</li>
+              </ul>
+	    </li>
+	    <li>
+	      <h2>Logiciels</h2>
+              <ul>
+		<li>
+		  <a href="https://www.mozilla.org/firefox">Firefox</a>
+		</li>
+		<li>
+		  <a href="https://www.mozilla.org/thunderbird">Thunderbird</a>
+		</li>
+		<li>
+		  <a href="https://www.mozilla.org/firefoxos">Firefox OS</a>
+		</li>
+              </ul>
+	    </li>
+	    <li>
+	      <h2>Innovations</h2>
+              <ul>
+		<li>
+		  <a href="https://webfwd.org/">WebFWD</a>
+		</li>
+		<li>
+		  <a href="https://mozillalabs.com/">Labs</a>
+		</li>
+		<li>
+		  <a href="https://webmaker.org/">Webmaker</a>
+		</li>
+		<li>
+		  <a href="https://www.mozilla.org/research/">Research</a>
+		</li>
+              </ul>
+	    </li>
+	    <li>
+	      <h2>Participer</h2>
+              <ul>
+		<li>
+		  <a href="https://www.mozilla.org/contribute/">Contribuer</a>
+		</li>
+		<li>
+		  <a href="https://www.mozilla.org/en-US/about/careers.html">Carrières</a>
+		</li>
+		<li>
+		  <a href="https://www.mozilla.org/en-US/about/mozilla-spaces/">Nous trouver</a>
+		</li>
+		<li>
+		  <a href="https://sendto.mozilla.org/Join-Tabzilla">Faire un don</a>
+		</li>
+              </ul>
+	    </li>
+	    <li id="tabzilla-search">
+              <a href="https://www.mozilla.org/community/directory.html">Annuaire des sites web</a>        
+	      <form title="Rechercher des sites Mozilla" role="search" action="http://www.google.com/cse">          
+		<input value="002443141534113389537:ysdmevkkknw" name="cx" type="hidden">          
+		<input value="FORID:0" name="cof" type="hidden">          
+		<label for="q">Rechercher</label>          
+		<input placeholder="Rechercher" id="q" name="q" type="search">        
+	      </form>
+	    </li>
+	  </ul>
+	</div>
+      </div>
+    </div>
+    <div id="strings" data-close="Fermer"></div>
+    <div id="outer-wrapper">
+      <div id="wrapper">
+
+	<header id="masthead">
+	  <a title="Liens Mozilla" aria-controls="tabzilla-panel" aria-expanded="false" role="button" class="tabzilla-closed" href="http://www.mozilla.org/" id="tabzilla">Mozilla</a>
+
+          <nav id="nav-main" role="navigation">
+	    <span class="toggle" role="button" aria-controls="nav-main-menu" tabindex="0">Menu</span>
+	    <ul id="nav-main-menu">
+              <li class="first"><a href="/">Home</a></li>
+              <li><a href="/screenshots">Screenshots</a></li>
+              <li><a href="http://www.shinken-monitoring.org/wiki">Doc</a></li>
+              <li><a href="/download">Download</a></li>
+              <li><a href="http://packs.shinken-monitoring.org">Packs</a></li>
+              <li><a href="/forum">Forum</a></li>
+              <li class="last"><a href="/demo">Demo</a></li>
+	    </ul>
+	  </nav>
+	  
+	</header>
+	<h3 id="explore">Explore the site</h3>
+	<nav id="partner-nav" role="navigation">
+	  <ul id="partner-menu" class="menu">
+	    <li id="menu-overview" class="active"><a href="#overview">Overview</a></li>
+	    <li id="menu-os"><a href="#os">Flexibility</a></li>
+	    <li id="menu-marketplace"><a href="#marketplace">Scalability</a></li>
+	    <li id="menu-android"><a href="#android">Business focus</a></li>
+	    <li id="menu-cloud"><a href="#cloud">Virtualization & cloud</a></li>
+	  </ul>
+	</nav>
+
+	<!--<ul id="overlay-menu" class="menu">
+	  <li id="menu-form"><a href="#form" class="no-scroll toggle-form">Impliquez-vous !</a></li>
+	</ul>
+	-->
+
+	
+	
+	<div style="opacity: 1;" id="article-wrapper">
+	  <div class="marketplacegiantfox giantfox-background"></div>
+	  <div class="marketplacegiantfox giantfox-foreground"></div>
+
+	  <!-- Main page, with what Shinken is -->
+	  <article style="top: 0px;" id="overview" class="partner-article">
+	    <section class="section-1" data-current="1">
+	      <a href="https://github.com/naparuba/shinken"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+	      <h2 style="top:0px; padding-top: 0px; float: left;">
+		<img src="fichiers/img/logo.png" alt="Shinken" width='400px'>
+	      </h2>
+
+	      <div class="phone-shadow visible"></div>
+	      <div class="article-content">
+		<h2>Flexible. Strongly flexible.</h2>
+		<div class="intro">
+		  
+		  <p>Shinken is a monitoring tool. It's a totaly
+		    rewrite from scratch Nagios for enhanced
+		    flexibility and large environnement
+		    management.</p>
+		  <p>
+		    <ul>
+		      <li><a class="nav" href="#os">Ready to run monitoring packs?</a></li>
+		      <li><a class="nav" href="#marketplace">Endless scalability and raid like availability?</a></li>
+		      <li><a class="nav" href="#android">Focus on critical business impacts only?</a></li>
+		      <li><a class="nav" href="#cloud">Fully virtualization integrated tool?</a></li>
+		      <li>Keep your Nagios configuration and plugins?</li>
+		    </ul>
+		    <p>
+		  </p>
+		  
+		  
+		  <p id="more-partners">It's time to upgrade your
+		  monitoring tool!
+		    <a style="margin-left:50px;" href="#form" class="button toggle-form">Get it!</a></p>
+		  </p>
+		  </p>
+
+		  
+		</div>
+	      </div>
+	    </section>
+	  </article>
+
+	  <!--- SLIDE 2        FLEXIBILITY      --->
+	  <article style="top: 0px;" id="os" class="partner-article dark" data-section="os-overview">
+	    <div class="giantfox"><div class="giantfox-foreground"></div></div>
+	    <div class="article-header">
+	      <h2 style="opacity: 0; top: 120px;" id="os-overview-headline" class="tween">
+		<img src="fichiers/marketplace-title.png" alt="Firefox Marketplace">
+	      </h2>
+	      <nav style="opacity: 0; top: 120px;" class="tween">
+		<a href="" class="view-section" data-section="os-overview"><span>The monitoring station</span></a>
+		<a href="" class="view-section" data-section="os-operators"><span>Extend monitoring</span></a>
+	      </nav>
+	    </div>
+	    
+	    <!-- Packs -->
+	    <section id="os-overview" class="section-1" data-pos="1" data-current="1">
+	      <div class="phone-shadow"></div>
+	      <div class="article-content">		
+		<div style="opacity: 0; top: 120px;" id="os-operators-intro" class="intro tween">
+		  <h3 style="opacity: 0; top: 120px;" id="os-operators-headline" class="tween">Ready to start</h3>
+		  <div class="left">
+		    <h4>Shinken packs will allow you to:</h4>
+		    <ul>
+		      <li>Quickly start to monitor your servers and applications</li>
+		      <li>Reuse your Nagios configuration</li>
+		      <li>Easily apply best practice from the monitoring community</li>
+		      <li>Get modules for loading frm new sources (Puppet, Mysql, ...) or new exports (Graphite, PNP4NAgios, ...)</li>
+		      <li>Exchange your own best pracices</li>
+		    </ul>
+		    <p class="partner-button"><a href="#form" class="button toggle-form">Get into the station!</a></p>
+		    <div id="os-promos" class="promos">
+		      <div>
+			<h4>Impliquez-vous !</h4>
+			<a href="#form" class="toggle-form">Contactez nos chargés de partenariats afin d'en savoir plus</a>
+		      </div>
+		    </div>
+		  </div>
+		  
+		  <ul id="os-operators-logos1" class="logos">
+
+		    <li><img src="fichiers/img/aix.png" alt="AIX"></li>
+		    <li><img src="fichiers/img/apache.png" alt="Apache"></li>
+		    <li><img src="fichiers/img/cisco.png" alt="Cisco"></li>
+
+		    <li><img src="fichiers/img/citrix.png" alt="Citrix"></li>
+		    <li><img src="fichiers/img/collectd.png" alt="Collectd"></li>
+		    <li><img src="fichiers/img/dell.png" alt="Dell"></li>
+
+		    <li><img src="fichiers/img/emc.png" alt="EMC"></li>
+		    <li><img src="fichiers/img/exchange.png" alt="Exchange"></li>
+		    <li><img src="fichiers/img/hp.png" alt="HP"></li>
+
+		    <li><img src="fichiers/img/ibm.png" alt="IBM"></li>
+		    <li><img src="fichiers/img/juniper.png" alt="Juniper"></li>
+		    <li><img src="fichiers/img/linux.png" alt="Linux"></li>
+
+		    <li><img src="fichiers/img/mongodb.png" alt="MongoDB"></li>
+		    <li><img src="fichiers/img/mssql.png" alt="Mssql"></li>
+		    <li><img src="fichiers/img/mysql.png" alt="Mysql"></li>
+
+		    <li><img src="fichiers/img/netapp.png" alt="NetApp"></li>
+		    <li><img src="fichiers/img/oracle.png" alt="Oracle"></li>
+		    <li><img src="fichiers/img/puppet.png" alt="Puppet"></li>
+		    <li><img src="fichiers/img/redhat.png" alt="RedHat"></li>
+
+		    <li><img src="fichiers/img/solaris.png" alt="Solaris"></li>
+		    <li><img src="fichiers/img/vmware.png" alt="Vmware"></li>
+		    <li><img src="fichiers/img/windows.png" alt="windows"></li>
+
+		    <li><img src="fichiers/img/xen.png" alt="Xen"></li>
+
+		  </ul>
+		</div>
+
+	      </div>
+	    </section>
+	    
+	    <!-- SECTION EXTEND MONITORING -->
+	    <section id="os-operators" class="section-2" data-pos="2">
+	      <div class="article-content">
+		
+		<div style="opacity: 0; top: 120px;" id="os-overview-intro" class="intro tween">
+		  <h4 class="narrow">Extend your monitoring platform</h4>
+		  <p class="narrow">The monitoring node is do not have what you need? You can easily extend it with configuration packs and modules.
+		    <a class="view-section" data-section="os-operators" href="#">Voici comment vous impliquer.</a></p>
+		  <h4 class="narrow">Configuration Packs</h4>
+		  <p class="narrow">The configuration packs are basically nagios configurations files, with templates and commands. If you know how to write Nagios configuration, you know how to write configuration packs.</p>
+		  <h4 class="narrow">Shinken modules</h4>
+		  <p class="narrow">Shinken is very flexible and modular. If you want to load your configuration from you specific CMDB or export data into your new performance data tool, you will be able to write modules to do so. Get a look at sample modules, it's in python and it's very easy.</p>
+		</div>
+	      </div>
+	    </section>
+	  </article>
+
+
+	  <!-- Article Scalability -->
+	  <article style="top: -142px;" id="marketplace" class="partner-article" data-section="marketplace-overview">
+	    <div class="article-header">
+	      <h2 style="opacity: 0; top: 120px;" class="tween">
+		<img src="fichiers/firefoxos-title.png" alt="Firefox OS">
+	      </h2>
+	      <nav style="opacity: 0; top: 120px;" class="tween">
+		<a href="" class="view-section" data-section="marketplace-overview"><span>LAN</span></a>
+		<a href="" class="view-section" data-section="marketplace-operators"><span>DMZ</span></a>
+		<a href="" class="view-section" data-section="marketplace-developers"><span>Multi-datacenters</span></a>
+	      </nav>
+	    </div>
+	    <!-- Classic LAN scalability -->
+	    <section id="marketplace-overview" class="section-1" data-pos="1" data-current="1">
+	      <div class="phone-shadow"></div>
+	      <div class="article-content">
+		<div style="opacity: 0; top: 120px;" id="marketplace-overview-intro" class="intro tween">
+		  <h4>Easy scalability for all</h4>
+		  <p class="narrow">Discover a world where the scalability is easy and is done by design by the tool. Shinken got no distributed limits, it's done to be scale on your LAN, your <a class="view-section" data-section="marketplace-operators" href="#">DMZ</a> and even across <a class="view-section" data-section="marketplace-developers" href="#">several datacenters</a>!
+		  </p>
+		  <h4>Raid like availability</h4>
+		  <p>You can be sure Shinken won't stop: you can
+		  easily define some nodes as spare, and if a
+		  mastergoes down, a spare will take the job.
+		  </p>
+		  <h4>Mixed architecturtes</h4>
+		  <p class="less-narrow">It's always easier to monitor a Windows from a windows host, and a linux from a linux based server. Hopefully, Shinken won't force you to choose between Linux and Windows, just got both! You will be able to easily checks your windows with the WMI protocol with a domain account (no password!) from a Windows poller, and network and Linux servers from a Linux poller!
+		  </p>
+		</div>
+	      </div>
+	    </section>
+
+	    <!-- DMZ architecture -->
+	    <section id="marketplace-operators" class="section-2" data-pos="2">
+	      <div class="article-content">
+		<div style="opacity: 0; top: 120px;" class="intro tween">
+		  <h3>DMZ monitoring: no more a security nigthmare!</h3>
+		  <div class="left">
+		    <img src="fichiers/img/distant_or_dmz.png" alt="DMZ">
+		  </div>
+		  <div class="right">
+		    <h4>How to make your security admins happy:</h4>
+		    <ol>
+		      <li>Place a poller in the DMZ</li>
+		      <li>Tag your hosts so they should be checks by the DMZ's poller.</li>
+		      <li>Enjoy : all your connexions will be from LAN to the DMZ for Shinken, and from the DMZ poller to your hosts for the checks. Period.</li>
+		    </ol>
+		    <p class="partner-button">
+		      <a href="#form" class="button toggle-form">Learn more about this</a>
+		    </p>
+		  </div>
+
+		</div>
+	      </div>
+	    </section>
+
+	    <!-- Multi-datacenters -->
+	    <section id="marketplace-developers" class="section-3" data-pos="3">
+	      <div class="article-content">
+		<div style="opacity: 0; top: 120px;" class="intro tween">
+		  <h3>Monitor several datacenters? Yes <i>you</i> can</h3>
+		  <div class="left">
+		    <h4>Got a structural view of your datacenters:</h4>
+		    <ul>
+		      <li>Got only one central configuration for all your datacenters</li>
+		      <li>Got one global view of your monitoring, one on each datacenter, or both!</li>
+		      <li>Scale one datacenter or another, it's up to you</li>
+		      <li>Organize your self with sub-datacenters to map your internal organization</li>
+		    </ul>
+		  </div>
+		  <div class="">
+		    <img src="fichiers/img/shinken-architecture-global-realm.png" alt="Datacenters" width='400px'>
+		  </div>
+		</div>
+	      </div>
+	    </section>
+	  </article>
+
+	  <!-- Business focus slide -->
+	  <article style="top: -284px;" id="android" class="partner-article dark" data-section="android-overview">
+	    <div class="android-tablet">
+	      <div class="tablet-screen"></div>
+	      <div class="android-dude"></div>
+	    </div>
+	    <div class="article-header">
+	      <h2 style="opacity: 0; top: 120px;" class="tween">
+		<img src="fichiers/android-title.png" alt="Firefox pour Android">
+	      </h2>
+	      <nav style="opacity: 0; top: 120px;" class="tween">
+		<a href="" class="view-section" data-section="android-overview"><span>Root problem analysis</span></a>
+		<a href="" class="view-section" data-section="android-partner"><span>Alert filtering</span></a>
+	      </nav>
+	    </div>
+	    <!-- BP rule and root problem analysis -->
+	    <section id="android-overview" class="section-1" data-pos="1" data-current="1">
+	      <div class="article-content">
+		<div style="opacity: 0; top: 120px; width: auto;" class="intro tween">
+		  <h4>Focus on your business</h4>
+		  <div class="left" style="width: 460px; float:left;" >
+		    <p>
+		      <b>IT is not important. End users apps are.</b>
+		    </p>
+		    <p>
+		      End users apps are delivered through your IT, and this one is shared between very important apps like your mails or your CRM, and low important ones like your dev env. With Shinken you will be able to describe your IT from the physical servers to the high level apps.
+		    </p>
+		    <h4>Find the root problem</h4>
+		    <p>Getting a full page of 500+ red lines is useless if only one is interesting : 499 are for impacts, 1 is for the root problem! Shinken will filter for you all of this, and you will be able to solve your problem in no time. <a class="view-section" data-section="android-partner" href="#">This will also solve your "too much" alerts problems</a>.
+		    </p>
+		    <h4 class="narrow">Sort by the business impact</h4>
+		    <p class="narrow">Did you remember about an admin running on server room to fix a dev server? No of course. But they will for production ones. You need to get in few second which root problem is impacting a production apps, and which one can wait after your coffee break.
+		    </p>
+		  </div>
+		  <div class="" style="float:right;">
+		    <img src="fichiers/img/shinken-business-rules.png" alt="Business rules" width='400px'>
+		  </div>
+		</div>
+	      </div>
+	    </section>
+	    
+	    <!-- Alter filtering -->
+	    <section id="android-partner" class="section-2" data-pos="2">
+	      <div class="article-content">
+		<div style="opacity: 0; top: 120px; width:100%;" class="intro tween">
+		  <div style="float:left; width:460px;">
+                    <h3>Production can't wait. And only production.</h3>
+		    <p>
+		      Did you remember about admins running on server room to fix a dev server? No. But replace dev by production and this will change. Your team should focus on production, and manage the others env later. Give them the tools that understand this.
+		    </p>
+		    <ul>
+		      <li>
+			<h5>Filtering testing/production alerts:</h5>
+			<p>Production need email and/os SMS. But maybe testing env don't need this, or at least no SMS of course. You can now easily filter root problem alarms so you will only receive alarms that need actions, and only them.
+			</p>
+		      </li>
+		      <li>
+			<h5>Day != Night</h5>
+			<p>
+			  You maybe don't care about SMS the day, and email the night. Now you can easily manage such notification canals without having to complexify your configuration.
+			</p>
+		      </li>
+		      <li>
+			<h5>Sometime it's critical for business, sometime it's not</h5>
+			<p>
+			  Let's take a paid application. Do you need to awake an admin at 3PM because the apps is down outside the paid period? No of course, but will need during these period. Now you will be able to define business impact modulation based on the period, like the 3 days during the month for the paid :)
+			</p>
+		      </li>
+		    </ul>
+		    <p class="partner-button"><a href="#form" class="button toggle-form">Smart filtering is waiting for you</a></p>
+		  </div>
+		  <div class="" style="float:right; margin-top: 120px;">
+		    <img src="fichiers/img/criticity_prod.png" alt="Business rules" width='400px'>
+		  </div>
+		</div>
+
+	      </div>
+	    </section>
+	    <div class="phone-container android-phone-container" id="phone-android">
+	      <div class="phone">
+		<div class="phone-overlay"></div>
+	      </div>
+	    </div>
+	  </article>
+
+
+
+	  <!-- Virtualized and cloud envs -->
+	  <article style="top: -568px;" id="cloud" class="partner-article" data-section="cloud-overview">
+	    <div class="android-tablet">
+	      <div class="tablet-screen"></div>
+	      <div class="android-dude"></div>
+	    </div>
+	    <div class="article-header">
+	      <h2 style="opacity: 0; top: 120px;" class="tween">
+		<img src="fichiers/android-title.png" alt="Firefox pour Android">
+	      </h2>
+	      <nav style="opacity: 0; top: 120px;" class="tween">
+		<a href="" class="view-section" data-section="cloud-overview"><span>Automatic VMWare topology</span></a>
+		<a href="" class="view-section" data-section="cloud-partner"><span>Amazon EC2 monitoring</span></a>
+	      </nav>
+	    </div>
+	    <section id="cloud-overview" class="section-1" data-pos="1" data-current="1">
+	      <div class="article-content">
+		<div style="opacity: 0; top: 120px; width:100%;" class="intro tween">
+		  <div style="float:left; width:460px;">
+		    <h4>Because an ESXi host can fail</h4>
+		    <p>
+		      Why if an ESXi host crash? Do you want to receive 50+ alerts about all your poor VMs that are DOWN, or just one critical alert about the fact that your ESX is DOWN? Only the root problem of course.</p>
+		    <p>It is what the VMWare module will solve for you : it will automatically look at your vSphere on which ESX are the VM, and create notification dependecies from it.
+		      <a class="view-section" data-section="android-partner" href="#"></a></p>
+		    <h4>What about VMotion?</h4>
+		    <p>
+		      Don't worry about VMotion, if your VM is moved to another ESX, the VMWare module will detect it, and automatically update the link without restart Shinken.
+		    </p>
+		    <h4 class="narrow">VMWare is great, but I use Xen/KVM/OpenStack/...</h4>
+		    <p class="narrow">
+		      No problem for this, in fact Xen and KVM are already managed, and new virtualization framework is easy to add. If it got an API, we can integer it!
+		    </p>
+		  </div>
+		  <div class="" style="float:right; margin-top: 120px;">
+                    <img src="fichiers/img/vmotion.png" alt="Business rules" width='400px'>
+                  </div>
+		</div>
+	      </div>
+	    </section>
+	    <section id="cloud-partner" class="section-2" data-pos="2">
+	      <div class="article-content">
+		<div style="opacity: 0; top: 120px;" class="intro tween">
+		  <div class="android-dude"></div>
+                  <h3>EC2 is great. Monitor the apps on theses hosts is great too.</h3>
+		  <ul>
+		    <li>
+		      <h5>Why monitor EC2?</h5>
+		      <p>
+			With the EC2 module you won't monitor EC2 itself, but you will be able to automatically monitor the apps like Mysql or Apache that are running on them.
+		      </p>
+		    </li>
+		    <li>
+		      <h5>No double configuration</h5>
+		      <p>
+			This module will automatically load all your EC2 instances, and will use the EC2 tags to configure your hosts in Shinken. When your EC2 tags are filled, your configuration is done.</p>
+		    </li>
+		    <li>
+		      <h5>Not only EC2</h5>
+		      <p>
+			From now only the EC2 module is available, but can be very easy to extend it to other cloud providers, like Rackspace, OVH or Gandi. Feel free to contribute on The Monitoring Station, we can help you for this.
+		      </p>
+		    </li>
+		  </ul>
+		  <p class="partner-button"><a href="#form" class="button toggle-form">Collaborez avec nous</a></p>
+		</div>
+	      </div>
+	    </section>
+	    <div class="phone-container android-phone-container" id="phone-android">
+	      <div class="phone">
+		<div class="phone-overlay"></div>
+	      </div>
+	    </div>
+	  </article>
+	  
+
+
+	  
+	</div><section style="display: none;" id="form" class="overlay-contents">
+	  <div class="form-results">
+            <h3>Nous vous remercions de votre intérêt à établir un partenariat avec Mozilla</h3>
+            <p>Nous traiterons votre demande dans les plus brefs délais et 
+	      vous recontacterons afin de discuter des opportunités de collaboration.</p>
+	  </div>
+
+	  <form action="/fr/about/partnerships/contact-bizdev/" role="dialog" aria-labelledby="get-involved-title" aria-describedby="get-involved-description" method="POST" id="sf-form" class="sf-form">
+
+	    <input name="csrfmiddlewaretoken" value="a412802febd2bd1ca0e50160fb7e2b5a" type="hidden">
+
+	    <!--  ----------------------------------------------------------------------  -->
+	    <!--  NOTE: These fields are optional debugging elements.  Please uncomment   -->
+	    <!--  these lines if you wish to test in debug mode.                          -->
+
+	    <!--input type="hidden" name="debug" value=1-->
+	    <!--input type="hidden" name="debugEmail" value=""-->
+
+	    <!--  ----------------------------------------------------------------------  -->
+
+	    <h3 id="get-involved-title">Impliquez-vous !</h3>
+	    <p id="get-involved-description">Contactez nos chargés de partenariats afin d'en savoir plus.</p>
+
+	    <div class="field">
+              <label for="first_name">Prénom</label>
+              <input id="first_name" maxlength="40" name="first_name" size="20" placeholder="Prénom" class="required" required="" aria-required="true" type="text">
+	    </div>
+
+	    <div class="field">
+              <label for="last_name">Nom</label>
+              <input id="last_name" maxlength="80" name="last_name" size="20" placeholder="Nom" class="required" required="" aria-required="true" type="text">
+	    </div>
+
+	    <div class="field">
+              <label for="title">Titre</label>
+              <input id="title" maxlength="40" name="title" size="20" placeholder="Titre" type="text">
+	    </div>
+
+	    <div class="field">
+              <label for="company">Entreprise</label>
+              <input id="company" maxlength="40" name="company" size="20" placeholder="Entreprise" class="required" required="" aria-required="true" type="text">
+	    </div>
+
+	    <div class="field">
+              <label for="URL">Site web</label>
+              <input id="URL" maxlength="80" name="URL" size="20" placeholder="Site web" type="text">
+	    </div>
+
+	    <div class="field">
+              <label for="email">Adresse électronique</label>
+              <input id="email" maxlength="80" name="email" size="20" placeholder="Adresse électronique" class="required" required="" aria-required="true" type="text">
+	    </div>
+
+	    <div class="field">
+              <label for="phone">Téléphone</label>
+              <input id="phone" maxlength="40" name="phone" size="20" placeholder="Téléphone" type="text">
+	    </div>
+
+	    <div class="field">
+              <label for="mobile">Portable</label>
+              <input id="mobile" maxlength="40" name="mobile" size="20" placeholder="Portable" type="text">
+	    </div>
+
+	    <div class="field">
+              <label for="interest">Centres d'intérêt&nbsp;:</label>
+              <select id="interest" multiple="multiple" name="interest" title="Intérêt" size="4">
+		<option value="Firefox for Android">Firefox pour Android</option>
+		<option value="Firefox Marketplace">Firefox Marketplace</option>
+		<option value="Firefox OS">Firefox OS</option>
+		<option value="Other">Autres</option>
+              </select>
+	    </div>
+
+	    <div class="field">
+              <label for="description">Des questions ou des commentaires&nbsp;?</label>
+              <textarea id="description" name="description" placeholder="Des questions ou des commentaires&nbsp;?"></textarea>
+	    </div>
+
+	    <div class="field footer-field">
+              <input name="submit" value="Envoyer ma demande" class="button" type="submit">
+	    </div>
+
+	    <div class="super-priority-field"><label for="super-priority-169-20130428045928548832" class="super-priority-check-label">Check this box if you are not human.</label><input name="superpriority" id="super-priority-169-20130428045928548832" type="checkbox"></div>
+
+	  </form>
+	  <button type="button" class="close">Fermer</button>
+	</section> <!--/#article-wrapper-->
+
+	
+      </div><!-- close #wrapper -->
+
+      <footer id="colophon">
+	<div class="row">
+
+          <div class="footer-logo">
+            <a href="http://www.mozilla.org/fr/"><img src="fichiers/footer-mozilla.png" alt="mozilla"></a>
+          </div>
+
+          <div class="footer-license">
+            <p>
+              Shinken© and the Shinken logo© are trademark in numerous contries by Jean Gabès. All rigths reserved.
+            </p>
+            <p>
+              <a href="http://github.com/naparuba/shinken/">Contribute to this page.</a>
+            </p>
+          </div>
+          <ul class="footer-nav">
+            <li><a href="mailto:naparuba@gmail.com">Contact us</a></li>
+            <li><a href="https://twitter.com/shinken_monitor">Twitter</a></li>
+            <li><a href="https://plus.google.com/u/0/b/104169286213171380189/104169286213171380189">Google+</a></li>
+            <li><a href="http://github.com/naparuba/shinken/">Source code</a></li>
+          </ul>
+	</div>
+      </footer>
+      
+    </div><!-- close #outer-wrapper -->
+
+    <script src="fichiers/tabzilla.js"></script>
+    <script src="fichiers/partners-min.js"></script>
+    
+    <div style="display: none;" id="pageslide"></div>
+  </body>
+</html>
