@@ -45,7 +45,8 @@
     activate_nav_item('overview');
 
     // Smooth scroll-to for left menu navigation
-    $('#partner-menu a, #nav-main-menu a, a.nav').click(function(e) {
+    // WAS #partner-menu a, #nav-main-menu a, a.nav
+    $('#partner-menu a, a.nav').click(function(e) {
         var elementClicked = $(this).attr("href");
         var destination;
 

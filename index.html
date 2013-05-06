@@ -48,7 +48,7 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="We’re buiding a great monitoring tool, focus on large env, with complex architecture">
     
-
+    
     <script src="fichiers/site-min.js"></script>
 
   </head>
@@ -57,15 +57,15 @@
     <div id="outer-wrapper">
       <div id="wrapper">
 	<header id="masthead">
-	  <a title="Liens Mozilla" aria-controls="tabzilla-panel" aria-expanded="false" role="button" class="tabzilla-closed" id="tabzilla">Mozilla</a>
+	  <!--<a title="Liens Mozilla" aria-controls="tabzilla-panel" aria-expanded="false" role="button" class="tabzilla-closed" id="tabzilla">Mozilla</a>-->
 
           <nav id="nav-main" role="navigation">
 	    <span class="toggle" role="button" aria-controls="nav-main-menu" tabindex="0">Menu</span>
 	    <ul id="nav-main-menu">
-              <li class="first"><a href="/">Home</a></li>
+              <li class="first"><a href="index.html#overview">Home</a></li>
               <li><a href="/screenshots">Screenshots</a></li>
               <li><a href="http://www.shinken-monitoring.org/wiki">Doc</a></li>
-              <li><a href="/download">Download</a></li>
+              <li><a href="download.html">Download</a></li>
               <li><a href="http://packs.shinken-monitoring.org">Packs</a></li>
               <li><a href="/forum">Forum</a></li>
               <li class="last"><a href="/demo">Demo</a></li>
@@ -124,10 +124,8 @@
 		  
 		  <p id="more-partners">It's time to upgrade your
 		    monitoring tool!
-		    <a style="margin-left:50px;" href="#form" class="button toggle-form">Get it!</a>
+		    <a style="margin-left:50px;" href="/download" class="button toggle-form">Get it!</a>
 		  </p>
-		  
-		  
 		</div>
 	      </div>
             </section>
@@ -468,105 +466,13 @@
 	    </div>
 	  </article>
 	  
-
-
-	  
-	</div><section style="display: none;" id="form" class="overlay-contents">
-	  <div class="form-results">
-            <h3>Nous vous remercions de votre intérêt à établir un partenariat avec Mozilla</h3>
-            <p>Nous traiterons votre demande dans les plus brefs délais et 
-	      vous recontacterons afin de discuter des opportunités de collaboration.</p>
-	  </div>
-
-	  <form action="/fr/about/partnerships/contact-bizdev/" role="dialog" aria-labelledby="get-involved-title" aria-describedby="get-involved-description" method="POST" id="sf-form" class="sf-form">
-
-	    <input name="csrfmiddlewaretoken" value="a412802febd2bd1ca0e50160fb7e2b5a" type="hidden">
-
-	    <!--  ----------------------------------------------------------------------  -->
-	    <!--  NOTE: These fields are optional debugging elements.  Please uncomment   -->
-	    <!--  these lines if you wish to test in debug mode.                          -->
-
-	    <!--input type="hidden" name="debug" value=1-->
-	    <!--input type="hidden" name="debugEmail" value=""-->
-
-	    <!--  ----------------------------------------------------------------------  -->
-
-	    <h3 id="get-involved-title">Impliquez-vous !</h3>
-	    <p id="get-involved-description">Contactez nos chargés de partenariats afin d'en savoir plus.</p>
-
-	    <div class="field">
-              <label for="first_name">Prénom</label>
-              <input id="first_name" maxlength="40" name="first_name" size="20" placeholder="Prénom" class="required" required="" aria-required="true" type="text">
-	    </div>
-
-	    <div class="field">
-              <label for="last_name">Nom</label>
-              <input id="last_name" maxlength="80" name="last_name" size="20" placeholder="Nom" class="required" required="" aria-required="true" type="text">
-	    </div>
-
-	    <div class="field">
-              <label for="title">Titre</label>
-              <input id="title" maxlength="40" name="title" size="20" placeholder="Titre" type="text">
-	    </div>
-
-	    <div class="field">
-              <label for="company">Entreprise</label>
-              <input id="company" maxlength="40" name="company" size="20" placeholder="Entreprise" class="required" required="" aria-required="true" type="text">
-	    </div>
-
-	    <div class="field">
-              <label for="URL">Site web</label>
-              <input id="URL" maxlength="80" name="URL" size="20" placeholder="Site web" type="text">
-	    </div>
-
-	    <div class="field">
-              <label for="email">Adresse électronique</label>
-              <input id="email" maxlength="80" name="email" size="20" placeholder="Adresse électronique" class="required" required="" aria-required="true" type="text">
-	    </div>
-
-	    <div class="field">
-              <label for="phone">Téléphone</label>
-              <input id="phone" maxlength="40" name="phone" size="20" placeholder="Téléphone" type="text">
-	    </div>
-
-	    <div class="field">
-              <label for="mobile">Portable</label>
-              <input id="mobile" maxlength="40" name="mobile" size="20" placeholder="Portable" type="text">
-	    </div>
-
-	    <div class="field">
-              <label for="interest">Centres d'intérêt&nbsp;:</label>
-              <select id="interest" multiple="multiple" name="interest" title="Intérêt" size="4">
-		<option value="Firefox for Android">Firefox pour Android</option>
-		<option value="Firefox Marketplace">Firefox Marketplace</option>
-		<option value="Firefox OS">Firefox OS</option>
-		<option value="Other">Autres</option>
-              </select>
-	    </div>
-
-	    <div class="field">
-              <label for="description">Des questions ou des commentaires&nbsp;?</label>
-              <textarea id="description" name="description" placeholder="Des questions ou des commentaires&nbsp;?"></textarea>
-	    </div>
-
-	    <div class="field footer-field">
-              <input name="submit" value="Envoyer ma demande" class="button" type="submit">
-	    </div>
-
-	    <div class="super-priority-field"><label for="super-priority-169-20130428045928548832" class="super-priority-check-label">Check this box if you are not human.</label><input name="superpriority" id="super-priority-169-20130428045928548832" type="checkbox"></div>
-
-	  </form>
-	  <button type="button" class="close">Fermer</button>
-	</section> <!--/#article-wrapper-->
-
-	
+	</div>
       </div><!-- close #wrapper -->
 
       <footer id="colophon">
 	<div class="row">
 
           <div class="footer-logo">
-            <a href="http://www.mozilla.org/fr/"><img src="fichiers/footer-mozilla.png" alt="mozilla"></a>
           </div>
 
           <div class="footer-license">
