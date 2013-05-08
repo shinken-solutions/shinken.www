@@ -1570,6 +1570,11 @@ body.noscroll {
 	margin-left: 20px
     }
 
+    #cloud .right_part {
+        margin-top: 20%;
+        margin-left: 20px;
+    }
+
     #cloud .intro .narrow {
 	margin-right: 100px
     }
