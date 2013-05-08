@@ -1170,7 +1170,7 @@ body.noscroll {
 	float: none;
 	width: auto;
 	margin: 0 10px;
-	padding-top: 125px;
+	/*padding-top: 125px;*/
 	padding-bottom: 30px
     }
 
@@ -1181,14 +1181,14 @@ body.noscroll {
     #overview .intro p {
 	font-family: 'Open Sans Light',sans-serif;
 	font-weight: normal;
-	font-size: 17px;
+	font-size: 20px;
 	letter-spacing: -0.01em
     }
 
     #overview .intro ul {
         font-family: 'Open Sans Light',sans-serif;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 20px;
 	text-align: left;
         letter-spacing: -0.01em;
 	margin-left: 40px;
@@ -1203,14 +1203,14 @@ body.noscroll {
 
     #overview .intro #more-partners {
 	float: left;
-	display: none;
+	/*display: none;*/
 	font-family: Journal;
-	font-size: 23px;
+	font-size: 28px;
 	color: #666;
 	padding-right: 50px;
 	text-align: right;
-	width: 400px;
-	background: url(img/partners-arrow.png) 60% 50% no-repeat
+	width: 500px;
+	background: url(img/partners-arrow.png) 70% 50% no-repeat
     }
 
     #overview .intro .partner-button {
