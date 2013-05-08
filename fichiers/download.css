@@ -1,0 +1,25 @@
+.download-linux p{
+    float:left;
+    text-align:left;
+}
+
+.download-linux p{
+    float:left;                                                                                                                                                                                                     
+    text-align:left;                                                                                                                                                                                                
+}
+
+
+.curl-install{
+    font-weight:bold!important;
+    padding-left:20px;
+}
+
+
+
+.journal {
+    font-family: Journal;
+    font-size: 30px;
+    color: #666;
+    text-align: right;
+    width: 400px;
+}

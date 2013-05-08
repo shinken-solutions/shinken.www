@@ -19,21 +19,21 @@
     <script src="fichiers/jquery.superscrollorama.js"></script>
     <script src="fichiers/enquire.min.js"></script>
     <script src="fichiers/modernizr.min.js"></script>
-    
+
     <!--[if lte IE 8]>
 	<script src="//mozorg.cdn.mozilla.net/media/js/libs/html5shiv.js"></script>
 	<![endif]-->
 
-
+    <link rel="stylesheet" media="screen,projection,tv" href="fichiers/download.css">
     <link rel="stylesheet" media="screen,projection,tv" href="fichiers/responsive.css">    
     <link rel="stylesheet" media="screen,projection,tv" href="fichiers/partners.css">
+
 
     <!--[if lte IE 7]>
 	<link rel="stylesheet" media="screen,projection,tv" href="//mozorg.cdn.mozilla.net/media/css/partners-ie7-min.css?build=a859779" />
 	<![endif]-->
     <script id="undefined" src="fichiers/inpage_linkid.js" async="" type="text/javascript"></script>
-    <script src="fichiers/ga.js" async=""
-	    type="text/javascript"></script>
+    <script src="fichiers/ga.js" async="" type="text/javascript"></script>
     <script>
       COMMON_JS_FILES = [];//"fichiers/common.js"];
       MOBILE_JS_FILES = ["//mozorg.cdn.mozilla.net/media/js/partners_mobile-min.js?build=a859779"];
@@ -97,19 +97,29 @@
 	      </h2>
 	      
 	      <div class="article-content">
-		<h2>Download</h2>
-		<div class="intro">
-		  <div class="download-linux" style="width:100%;float:left;">
-		    <p>If you are using a common linux OS just launch:</p>
-		    <p>
-		      <b>
+		<h2>
+		  <img src='fichiers/img/download.png' width='64px;'> Download</h2>
+		<div class="well">
+		  <div class="">
+		    <p style="width:100%;margin-bottom:0px;">
+		      <img src="fichiers/img/redhat.png" alt="RedHat" width='48px'> 
+		      <img src="fichiers/img/centos.png" alt="Centos" width='48px'> 
+		      <img src="fichiers/img/debian.png" alt="Debian" width='48px'> 
+		      <img src="fichiers/img/ubuntu.png" alt="Ubuntu" width='48px'> 
+		      <span class="journal">Common linux :</span>
+		    </p>
+		    <p class="curl-install">
 			curl -L http://install.shinken-monitoring.org | /bin/bash
-		      </b>
 		    </p>
 		  </div>
-		  <div class="download-others" style="width:100%;float:right;">
+		  <div class="" style="">
 		    <p>
-		      You are using another OS? Try the old-school tarball <a style="margin-left:50px;" href="/download" class="button toggle-form">Here</a>
+		      <img src="fichiers/img/windows.png" alt="Windows" width='48px'> 
+		      <img src="fichiers/img/linux.png" alt="Linux" width='48px'> 
+		      <span class='journal'>Another OS? Get the
+		      tarball</span> 
+		      <img src='fichiers/img/partners-arrow.png'>
+		      <a style="margin-left:25px;" href="pub/tarball.tar.gz" class="button toggle-form">Here</a>
 		    </p>
 		  </div>
 		  <div style="width:100%;float:left;">

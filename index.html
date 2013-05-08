@@ -19,6 +19,7 @@
     <script src="fichiers/jquery.superscrollorama.js"></script>
     <script src="fichiers/enquire.min.js"></script>
     <script src="fichiers/modernizr.min.js"></script>
+    <script src="fichiers/jquery.nivo.slider.js"></script>
     
     <!--[if lte IE 8]>
 	<script src="//mozorg.cdn.mozilla.net/media/js/libs/html5shiv.js"></script>
@@ -27,6 +28,7 @@
 
     <link rel="stylesheet" media="screen,projection,tv" href="fichiers/responsive.css">    
     <link rel="stylesheet" media="screen,projection,tv" href="fichiers/partners.css">
+    <link rel="stylesheet" media="screen,projection,tv" href="fichiers/nivo.slider.css">
 
     <!--[if lte IE 7]>
 	<link rel="stylesheet" media="screen,projection,tv" href="//mozorg.cdn.mozilla.net/media/css/partners-ie7-min.css?build=a859779" />
@@ -425,9 +427,16 @@
 		      No problem for this, in fact Xen and KVM are already managed, and new virtualization framework is easy to add. If it got an API, we can integer it!
 		    </p>
 		  </div>
-		  <div class="" style="float:right; margin-top: 120px;">
-                    <img src="fichiers/img/vmware_shinken.png" alt="Business rules" width='500px'>
-                  </div>
+		  <div class="" style="float:right; margin-top:120px;">
+		    
+		    <!-- Then somewhere in the <body> section -->
+		    <div class="slider-wrapper" style="width:450px;">
+		      <div id="slider" class="nivoSlider">
+			<img src="fichiers/img/vmware_shinken.png" alt="Vmware in Shinken" width='500px' />
+			<img src="fichiers/img/vmotion.png"        alt="Vmotion support on Shinken" width='400px'>
+ 		      </div>
+		    </div>
+                   </div>
 		</div>
 	      </div>
 	    </section>
@@ -498,5 +507,37 @@
     <!--<script src="fichiers/partners-min.js"></script>-->
     
     <div style="display: none;" id="pageslide"></div>
+
+
+    <script type="text/javascript">
+      $(window).load(function() {
+      $('#slider').nivoSlider(
+      {
+          effect: 'slideDown', // Specify sets like: 'fold,fade,sliceDown'
+          slices: 15, // For slice animations
+        boxCols: 8, // For box animations
+        boxRows: 4, // For box animations
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 15000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: false, // Next &amp; Prev navigation
+        controlNav: false, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        prevText: '', // Prev directionNav text
+        nextText: '', // Next directionNav text
+        randomStart: false, // Start on a random slide
+        beforeChange: function(){}, // Triggers before a slide     transition
+        afterChange: function(){}, // Triggers after a slide      transition
+        slideshowEnd: function(){}, // Triggers after all slides have      been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+    }
+
+);
+      });
+    </script>
+
   </body>
 </html>
