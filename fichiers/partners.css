@@ -1193,8 +1193,13 @@ body.noscroll {
         letter-spacing: -0.01em;
 	margin-left: 40px;
 	list-style-type: none;
-	list-style-image : url('img/tick_32.png');
+	/*list-style-image : url('img/tick_32.png');*/
 
+    }
+    #overview .intro ul img{
+	position:relative;
+	left: 0px;
+	top:5px;
     }
 
     #overview .intro .partner-logos {
