@@ -555,13 +555,13 @@
     padding-top: 40px
 }
 
-#android #android-partner .intro ul li {
+#android .intro ul li {
     list-style-type: none;
     margin: 10px 0;
     padding: 0
 }
 
-#android #android-partner .intro ul li h5 {
+#android .intro ul li h5 {
     font-weight: bold;
     text-transform: uppercase;
     color: #7ecdff;
@@ -2276,14 +2276,14 @@ body.noscroll {
     width: 980px;
     height: 400px;
 }
-#gallery-nav
+.gallery-nav
 {
     position: relative;
     top: -25px;
     margin: 0 auto;
     text-align: center;
 }
-#gallery-nav a
+.gallery-nav a
 {
     cursor: pointer;
     margin-left:10px;
@@ -2309,7 +2309,26 @@ body.noscroll {
     overflow: hidden;
     font-size: 5px;
 }
-#gallery-nav a.gallery-nav-active
+.gallery-nav a.gallery-nav-cloud-active
+{
+    background: #1963ad;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #1963ad;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear,left top,left bottom,from(#3696d6),to(#1963ad));
+    background-image: -moz-linear-gradient(#3696d6,#1963ad);
+    background-image: -ms-linear-gradient(#3696d6,#1963ad);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#3696d6),color-stop(100%,#1963ad));
+    background-image: -webkit-linear-gradient(#3696d6,#1963ad);
+    background-image: -o-linear-gradient(#3696d6,#1963ad);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#3696d6', endColorstr='#1963ad', GradientType=0)";
+    background-image: linear-gradient(#3696d6,#1963ad);
+    
+}
+
+.gallery-nav a.gallery-nav-filtering-active
 {
     background: #1963ad;
     -webkit-box-shadow: none;

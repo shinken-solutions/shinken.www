@@ -25,16 +25,23 @@ $(document).ready(function() {
 
 
 $(window).load(function() {
-    $('.gallery').code4netslideshow({
-        'navigation' : [
-            {
-                'id' : 'gallery-nav',
-                'type' : 'bullet'           //bullet/arrow
-            }
-        ],
-        'slideInterval' : 5,
-        'pauseInterval' : 10, 
-        'type' : 'horizontal',
-        'autoSlide' : false
+    
+    $('.gallery').each(function( index, elt ){
+	var elt = $(elt);
+	var nav_id = elt.data('nav-id');
+	console.log(nav_id);
+	$(elt).code4netslideshow({
+            'navigation' : [
+		{
+                    'id' : nav_id,//'gallery-nav-'+nav_id,
+                    'type' : 'bullet'           //bullet/arrow
+		}
+            ],
+            'slideInterval' : 5,
+            'pauseInterval' : 10, 
+            'type' : 'horizontal',
+            'autoSlide' : false
+	}
+			     );
     });
 });

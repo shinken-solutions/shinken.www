@@ -8,6 +8,7 @@
  *  Release date: Mon Oct 31 2011
  *
 */
+
 (function($){
     var methods = {
       init: function(options){

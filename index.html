@@ -319,20 +319,30 @@
 	    <section id="android-overview" class="section-1" data-pos="1" data-current="1">
 	      <div class="article-content">
 		<div style="opacity: 0; top: 120px; width: auto;" class="intro tween">
-		  <h4>Focus on your business</h4>
+		  <h3>Focus on your business</h3>
 		  <div class="left" style="width: 460px; float:left;" >
-		    <p>
-		      <b>IT is not important. End users apps are.</b>
-		    </p>
-		    <p>
-		      End users apps are delivered through your IT, and this one is shared between very important apps like your mails or your CRM, and low important ones like your dev env. With Shinken you will be able to describe your IT from the physical servers to the high level apps.
-		    </p>
-		    <h4>Find the root problem</h4>
-		    <p>Getting a full page of 500+ red lines is useless if only one is interesting : 499 are for impacts, 1 is for the root problem! Shinken will filter for you all of this, and you will be able to solve your problem in no time. <a class="view-section" data-section="android-partner" href="#">This will also solve your "too much" alerts problems</a>.
-		    </p>
-		    <h4 class="narrow">Sort by the business impact</h4>
-		    <p class="narrow">Did you remember about an admin running on server room to fix a dev server? No of course. But they will for production ones. You need to get in few second which root problem is impacting a production apps, and which one can wait after your coffee break.
-		    </p>
+		    <ul>
+		      <li>
+			<h5>
+			  <b>IT is not important. End users apps are.</b>
+			</h5>
+			<p>
+			  End users apps are delivered through your IT, and this one is shared between very important apps like your mails or your CRM, and low important ones like your dev env. With Shinken you will be able to describe your IT from the physical servers to the high level apps.
+			</p>
+		      </li>
+		      <li>
+			<h5>Find the root problem</h5>
+			<p>
+			  Getting a full page of 500+ red lines is useless if only one is interesting : 499 are for impacts, 1 is for the root problem! Shinken will filter for you all of this, and you will be able to solve your problem in no time. <a class="view-section" data-section="android-partner" href="#">This will also solve your "too much" alerts problems</a>.
+			</p>
+		      </li>
+		      <li>
+			<h5 class="narrow">Sort by the business impact</h5>
+			<p class="narrow">
+			  Did you remember about an admin running on server room to fix a dev server? No of course. But they will for production ones. You need to get in few second which root problem is impacting a production apps, and which one can wait after your coffee break.
+			</p>
+		      </li>
+		    </ul>
 		  </div>
 		  <div class="" style="float:right;">
 		    <img src="fichiers/img/shinken-business-rules.png" alt="Business rules" width='400px'>
@@ -345,8 +355,8 @@
 	    <section id="android-partner" class="section-2" data-pos="2">
 	      <div class="article-content">
 		<div style="opacity: 0; top: 120px; width:100%;" class="intro tween">
+                  <h3>Production can't wait. (And only production)</h3>
 		  <div style="float:left; width:460px;">
-                    <h3>Production can't wait. And only production.</h3>
 		    <p>
 		      Did you remember about admins running on server room to fix a dev server? No. But replace dev by production and this will change. Your team should focus on production, and manage the others env later. Give them the tools that understand this.
 		    </p>
@@ -372,10 +382,25 @@
 		    <p class="partner-button"><a href="#form" class="button toggle-form">Smart filtering is waiting for you</a></p>
 		  </div>
 		  <div class="" style="float:right; margin-top: 120px;">
-		    <img src="fichiers/img/criticity_prod.png" alt="Business rules" width='400px'>
+
+
+		    <div class="galery-wrapper">
+		      <div class="gallery" data-nav-id="gallery-nav-filtering">
+			<div class="gallery-slide">
+			  <img src="fichiers/img/criticity_prod.png" alt="Smart filtering for production" width='400px'/>
+			</div>
+			<div class="gallery-slide">
+			  <img src="fichiers/img/criticity_qualif.png" alt="Smart filtering for testing" width='400px'/>
+			</div>
+		      </div>
+		    </div>
+		    <div class="clear"></div> 
+		    <div class="gallery-nav" id="gallery-nav-filtering"></div>             
+		  </div> 
+
+
 		  </div>
 		</div>
-
 	      </div>
 	    </section>
 	  </article>
@@ -424,7 +449,7 @@
 		  <div class="" style="float:right; margin-top:30px;">
 		    
 		    <div class="galery-wrapper">
-		      <div class="gallery">
+		      <div class="gallery" data-nav-id="gallery-nav-cloud">
 			<div class="gallery-slide">
 			  <img src="fichiers/img/vmware_shinken.png" alt="Vmware in Shinken" width='500px'/>
 			</div>
@@ -434,7 +459,7 @@
 		      </div>
 		    </div>
 		    <div class="clear"></div> 
-		    <div id="gallery-nav"></div>             
+		    <div class="gallery-nav" id="gallery-nav-cloud"></div>             
 		  </div> 
 		    
                 </div>
