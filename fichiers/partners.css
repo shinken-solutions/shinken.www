@@ -583,6 +583,20 @@
 }
 
 
+#marketplace .blue ul li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0
+}
+
+#marketplace .blue ul li h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #7ecdff;
+    margin-bottom: 5px
+}
+
+
 
 #cloud #cloud-overview .intro .play {
     display: block;
