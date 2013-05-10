@@ -569,6 +569,20 @@
 }
 
 
+#os .intro ul li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0
+}
+
+#os .intro ul li h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #7ecdff;
+    margin-bottom: 5px
+}
+
+
 
 #cloud #cloud-overview .intro .play {
     display: block;
@@ -1253,7 +1267,7 @@ body.noscroll {
     #os .intro {
 	z-index: 50;
 	float: left;
-	width: 540px;
+	width: auto;
 	margin: 0 10px;
 	margin-left: 20px
     }
@@ -1524,6 +1538,10 @@ body.noscroll {
     }
 
     #android #android-partner .intro h3 {
+	font-size: 42px
+    }
+
+    #android #android-overview .intro h3 {
 	font-size: 42px
     }
 
