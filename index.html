@@ -5,6 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     
     <title>Shinken-monitoring.org</title>
 
@@ -12,7 +13,8 @@
     <link href="fichiers/tabzilla-clean.css" rel="stylesheet">    
     
     <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-    
+    <script src="fichiers/matchmedia.js"></script>
+
     <link href="fichiers/jquery.pageslide.css" rel="stylesheet">    
     <script src="fichiers/jquery.pageslide.min.js"></script>
     <script src="fichiers/TweenMax.min.js"></script>
@@ -22,7 +24,12 @@
     <script src="fichiers/code4net.slideshow.js"></script>
     <script src="fichiers/site.js"></script>
     
+
     <!--[if lte IE 8]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]--> 
+
+    <!--[if lte IE 6]>
 	<script src="//mozorg.cdn.mozilla.net/media/js/libs/html5shiv.js"></script>
 	<![endif]-->
 
@@ -101,8 +108,7 @@
 									absolute; top: 0; right: 0; border: 0;"
 								 src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
 								 alt="Fork me on GitHub"></a>
-	      <a href="index.html"> <img src="fichiers/img/logo.png"
-					 alt="Shinken" width='400px' ></a>
+	      <a href="index.html"> <img src="fichiers/img/logo.png" alt="Shinken" width='400px' ></a>
 	      <h2 style="top:0px; padding-top: 0px; float: left;">
 	      </h2>
 	      
@@ -245,7 +251,7 @@
 	  <article style="top: -142px;" id="marketplace" class="partner-article" data-section="marketplace-overview">
 	    <div class="article-header">
 	      <h2 style="opacity: 0; top: 120px;" class="tween">
-		<img src="fichiers/firefoxos-title.png" alt="Firefox OS">
+		<img src="fichiers/img/logo.png" alt="Shinken" width='300px'>
 	      </h2>
 	      <nav style="opacity: 0; top: 120px;" class="tween">
 		<a href="" class="view-section" data-section="marketplace-overview"><span>LAN</span></a>
@@ -332,7 +338,7 @@
 	  <article style="top: -284px;" id="android" class="partner-article dark" data-section="android-overview">
 	    <div class="article-header">
 	      <h2 style="opacity: 0; top: 120px;" class="tween">
-		<img src="fichiers/android-title.png" alt="Firefox pour Android">
+		<img src="fichiers/img/logo.png" alt="Shinken" width='300px' >
 	      </h2>
 	      <nav style="opacity: 0; top: 120px;" class="tween">
 		<a href="" class="view-section" data-section="android-overview"><span>Root problem analysis</span></a>
@@ -386,7 +392,7 @@
 		    </p>
 		    <ul>
 		      <li>
-			<h5>Filtering testing/production alerts:</h5>
+			<h5>Filtering testing/production alerts</h5>
 			<p>Production need email and/os SMS. But maybe testing env don't need this, or at least no SMS of course. You can now easily filter root problem alarms so you will only receive alarms that need actions, and only them.
 			</p>
 		      </li>
@@ -434,7 +440,7 @@
 	  <article style="top: -568px;" id="cloud" class="partner-article" data-section="cloud-overview">
 	    <div class="article-header">
 	      <h2 style="opacity: 0; top: 120px;" class="tween">
-		<img src="fichiers/android-title.png" alt="Firefox pour Android">
+		<img src="fichiers/img/logo.png" alt="Shinken" width="300px">
 	      </h2>
 	      <nav style="opacity: 0; top: 120px;" class="tween">
 		<a href="" class="view-section" data-section="cloud-overview"><span>Automatic VMWare topology</span></a>

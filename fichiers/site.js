@@ -29,7 +29,6 @@ $(window).load(function() {
     $('.gallery').each(function( index, elt ){
 	var elt = $(elt);
 	var nav_id = elt.data('nav-id');
-	console.log(nav_id);
 	$(elt).code4netslideshow({
             'navigation' : [
 		{
