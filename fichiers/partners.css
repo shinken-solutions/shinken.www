@@ -58,7 +58,7 @@
 
 .logos li {
     float: left;
-    width: 120px;
+    width: 80px;
     height: 46px;
     line-height: 46px;
     padding: 0;
@@ -1069,7 +1069,7 @@ body.noscroll {
 	color: #484848;
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4);
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4);
-	box-shadow: 0 1px 2px rgba(0,0,0,0.4)
+	box-shadow: 0 1px 2px rgba(0,0,0,0.4);
     }
 
     .partner-article[data-section="os-overview"] .article-header nav a[data-section="os-overview"]: after,.partner-article[data-section="os-operators"] .article-header nav a[data-section="os-operators"]: after,.partner-article[data-section="marketplace-overview"] .article-header nav a[data-section="marketplace-overview"]: after,.partner-article[data-section="marketplace-operators"] .article-header nav a[data-section="marketplace-operators"]: after,.partner-article[data-section="marketplace-developers"] .article-header nav a[data-section="marketplace-developers"]: after,.partner-article[data-section="android-overview"] .article-header nav a[data-section="android-overview"]: after,.partner-article[data-section="android-partner"] .article-header nav a[data-section="android-partner"]: after , .partner-article[data-section="android-overview"] .article-header nav a[data-section="android-overview"]: after,.partner-article[data-section="android-partner"] .article-header nav a[data-section="android-partner"]: after  {
