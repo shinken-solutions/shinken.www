@@ -4,7 +4,7 @@
 ;(function(w, $, TweenMax, TimelineLite, Power2, Quad) {
     'use strict';
 
-    w.ga_track('');
+    //w.ga_track('');
 
     var $article_wrapper = $('#article-wrapper');
     var article_height = 820;
@@ -33,7 +33,7 @@
                 url = '';
             }
 
-            w.ga_track(url);
+            //w.ga_track(url);
         }
     };
 
@@ -94,7 +94,7 @@
 
         virtual_page = (elementClicked !== '#overview') ? elementClicked.replace(/#/, '') + '/' : '';
 
-        w.ga_track(virtual_page);
+        //w.ga_track(virtual_page);
 
         return false;
     });
@@ -138,7 +138,7 @@
         if (!$menu.hasClass('form-open')) {
             //$.pageslide.close();
         } else {
-            w.ga_track('form/');
+            //w.ga_track('form/');
         }
     };
 
@@ -209,7 +209,7 @@
             virtual_page += dest.attr('id') + '/';
         }
 
-        w.ga_track(virtual_page);
+        //w.ga_track(virtual_page);
     });
 
     // show/hide phone shade and set phone screen contents
