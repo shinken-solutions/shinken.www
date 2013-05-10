@@ -4,19 +4,11 @@
 ;(function(w, $, TweenMax, TimelineLite, Power2, Quad) {
     'use strict';
 
-    //w.ga_track('');
-
     var $article_wrapper = $('#article-wrapper');
     var article_height = 820;
     var parallax_offset = 142;
-    var phone_offset = 200; // distance from top of article to top of phone
-    var phone_speed = 400; // ms phone movement speed between articles
 
-    var $os_giantfox = $('#os .giantfox');
-    var $os_giantfox_tail = $('#os .giantfox .giantfox-foreground');
-    var $marketplace_giantfox_bg = $('.marketplacegiantfox.giantfox-background');
-    var $marketplace_giantfox_fg = $('.marketplacegiantfox.giantfox-foreground');
-    var $android_tablet = $('#android .android-tablet');
+    var phone_offset = 200; // still useful
     var $overview = $('#overview');
     var $os = $('#os');
     var $marketplace = $('#marketplace');
@@ -32,8 +24,7 @@
             if (url === 'overview/') {
                 url = '';
             }
-
-            //w.ga_track(url);
+	    
         }
     };
 
@@ -69,13 +60,6 @@
                 break;
         }
 
-        // reset phone & giantfox
-        /*$os_giantfox.css('margin-left', '-70px');
-        $marketplace_giantfox_bg.css('margin-left', '-40px');
-        $marketplace_giantfox_fg.css('margin-left', '86px');
-        $android_tablet.css('margin-left', '-40px');
-	*/
-
         // force all first sections to be current
         $('.partner-article').each(function(i, article) {
             $(article).attr('data-section', $(article).find('section:first').attr('id'));
@@ -93,9 +77,7 @@
         });
 
         virtual_page = (elementClicked !== '#overview') ? elementClicked.replace(/#/, '') + '/' : '';
-
-        //w.ga_track(virtual_page);
-
+	
         return false;
     });
 
@@ -129,18 +111,6 @@
     $(w).on('hashchange', function() {
         _handle_hash();
     });
-
-    var _toggle_form = function() {
-        var $menu = $('#overlay-menu');
-
-        $menu.toggleClass('form-open');
-
-        if (!$menu.hasClass('form-open')) {
-            //$.pageslide.close();
-        } else {
-            //w.ga_track('form/');
-        }
-    };
 
 
     // re-arrange news, partner button, & links if #overview
@@ -239,7 +209,6 @@
         $('body').attr('data-article', slide.attr('id'));
 
         // set active left menu item
-	console.log('Activate'+slide.attr('id'));
         activate_nav_item(slide.attr('id'));
 
         // calculate new top position for phone

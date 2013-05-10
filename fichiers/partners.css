@@ -1512,7 +1512,6 @@ body.noscroll {
 
     #android #android-partner {
 	padding-top: 0;
-	background: url(/media/img/firefox/partners/android-partners-bg.png) 50% 200px no-repeat
     }
 
     #android #android-partner .intro {
@@ -1600,7 +1599,6 @@ body.noscroll {
 
     #cloud #cloud-overview {
 	padding-top: 0;
-	background: url(/media/img/firefox/partners/android-partners-bg.png) 50% 200px no-repeat
     }
 
     #cloud #cloud-overview .intro {
@@ -2011,7 +2009,6 @@ body.noscroll {
     }
 
     #pageslide {
-	background: #1e2023 url(/media/img/firefox/partners/form-bg.jpg) 0 0 repeat-y
     }
 
     #pageslide: focus {
