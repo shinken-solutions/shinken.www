@@ -396,24 +396,33 @@
 	    <section id="cloud-overview" class="section-1" data-pos="1" data-current="1">
 	      <div class="article-content">
 		<div style="opacity: 0; top: 120px; width:100%;" class="intro tween">
+		  <h3>Because an ESXi host can fail</h3>
 		  <div style="float:left; width:460px;">
-		    <h4>Because an ESXi host can fail</h4>
-		    <p>
-		      Why if an ESXi host crash? Do you want to receive 50+ alerts about all your poor VMs that are DOWN, or just one critical alert about the fact that your ESX is DOWN? Only the root problem of course.</p>
-		    <p>It is what the VMWare module will solve for you : it will automatically look at your vSphere on which ESX are the VM, and create notification dependecies from it.
-		      <a class="view-section" data-section="android-partner" href="#"></a></p>
-		    <h4>What about VMotion?</h4>
-		    <p>
-		      Don't worry about VMotion, if your VM is moved to another ESX, the VMWare module will detect it, and automatically update the link without restart Shinken.
-		    </p>
-		    <h4 class="narrow">VMWare is great, but I use Xen/KVM/OpenStack/...</h4>
-		    <p class="narrow">
-		      No problem for this, in fact Xen and KVM are already managed, and new virtualization framework is easy to add. If it got an API, we can integer it!
-		    </p>
+		    <ul>
+		      <li>
+			<h5>What if an ESXi host crash?</h5>
+			<p>
+			  Why if an ESXi host crash? Do you want to receive 50+ alerts about all your poor VMs that are DOWN, or just one critical alert about the fact that your ESX is DOWN? Only the root problem of course.</p>
+			<p>It is what the VMWare module will solve for you : it will automatically look at your vSphere on which ESX are the VM, and create notification dependecies from it.
+			  <a class="view-section" data-section="android-partner" href="#"></a>
+			</p>
+		      </li>
+		      <li>
+			<h5>What about VMotion?</h5>
+			<p>
+			  Don't worry about VMotion, if your VM is moved to another ESX, the VMWare module will detect it, and automatically update the link without restart Shinken.
+			</p>
+		      </li>
+		      <li>
+			<h5 class="narrow">VMWare is great, but I use Xen/KVM/OpenStack/...</h5>
+			<p class="narrow">
+			  No problem for this, in fact Xen and KVM are already managed, and new virtualization framework is easy to add. If it got an API, we can integer it!
+			</p>
+		      </li>
+		    </ul>
 		  </div>
-		  <div class="" style="float:right; margin-top:120px;">
+		  <div class="" style="float:right; margin-top:30px;">
 		    
-
 		    <div class="galery-wrapper">
 		      <div class="gallery">
 			<div class="gallery-slide">
@@ -427,17 +436,14 @@
 		    <div class="clear"></div> 
 		    <div id="gallery-nav"></div>             
 		  </div> 
-		  
-
-
 		    
                 </div>
 	      </div>
 	    </section>
 	    <section id="cloud-partner" class="section-2" data-pos="2">
 	      <div class="article-content">
+                <h3>EC2 is great. Monitor the apps on theses hosts is great too.</h3>
 		<div style="opacity: 0; top: 120px;" class="intro tween">
-                  <h3>EC2 is great. Monitor the apps on theses hosts is great too.</h3>
 		  <ul>
 		    <li>
 		      <h5>Why monitor EC2?</h5>
@@ -457,7 +463,7 @@
 		      </p>
 		    </li>
 		  </ul>
-		  <p class="partner-button"><a href="#form" class="button toggle-form">Collaborez avec nous</a></p>
+		  <p class="partner-button"><a href="http://www.shinken.io" class="button">Learn more</a></p>
 		</div>
 
 		<div class="right_part">

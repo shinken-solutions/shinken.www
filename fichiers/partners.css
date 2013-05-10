@@ -579,13 +579,13 @@
     padding-top: 40px
 }
 
-#cloud #cloud-partner .intro ul li {
+#cloud .intro ul li {
     list-style-type: none;
     margin: 10px 0;
     padding: 0
 }
 
-#cloud #cloud-partner .intro ul li h5 {
+#cloud .intro ul li h5 {
     font-weight: bold;
     text-transform: uppercase;
     color: #7ecdff;
@@ -1567,6 +1567,10 @@ body.noscroll {
 	z-index: 131
     }
 
+    #cloud-partner h3{
+	padding-top:120px;
+    }
+
     #cloud .intro {
 	float: left;
 	width: 460px;
@@ -1575,7 +1579,6 @@ body.noscroll {
     }
 
     #cloud .right_part {
-        margin-top: 20%;
         margin-left: 20px;
     }
 
@@ -1629,7 +1632,7 @@ body.noscroll {
     }
 
     #cloud #cloud-partner .intro {
-	padding-top: 120px
+	/*padding-top: 120px*/
     }
 
     #cloud #cloud-partner .intro h3 {
