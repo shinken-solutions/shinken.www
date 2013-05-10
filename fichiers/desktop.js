@@ -228,7 +228,7 @@
                 // if phone is visible, animate nicely off to the left, then
                 // change top position
                 virtual_page = slide.attr('id') + '/' + slide.find('section[data-current="1"]:first').attr('id') + '/';
-		var visible = False;
+		var visible = false;
                 if (visible) {
                     _refresh_phone(slide, 'out');
 
