@@ -1361,10 +1361,9 @@ body.noscroll {
 
 #marketplace #marketplace-overview .intro {
     float: left;
-    width: 620px;
+    width: auto;
     margin: 0 10px;
     margin-left: 20px;
-    width: 580px
 }
 
 #marketplace #marketplace-overview .intro .narrow {
