@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class="js" dir="ltr" lang="fr"><head>
+<html class="js" dir="ltr" lang="en">
+  <head>
     <!-- This page is based on the Firefox partners model. Thanks a lot to all the Firefox team for Firefox, and
 	 this great page model too. -->
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -10,11 +11,9 @@
     <title>Shinken-monitoring.org</title>
 
     
-    <link href="fichiers/tabzilla-clean.css" rel="stylesheet">    
-    
     <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
     <script src="fichiers/matchmedia.js"></script>
-
+    
     <link href="fichiers/jquery.pageslide.css" rel="stylesheet">    
     <script src="fichiers/jquery.pageslide.min.js"></script>
     <script src="fichiers/TweenMax.min.js"></script>
@@ -29,23 +28,13 @@
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]--> 
 
-    <!--[if lte IE 6]>
-	<script src="//mozorg.cdn.mozilla.net/media/js/libs/html5shiv.js"></script>
-	<![endif]-->
-
-
+    
     <link rel="stylesheet" media="screen,projection,tv" href="fichiers/responsive.css">    
     <link rel="stylesheet" media="screen,projection,tv" href="fichiers/partners.css">
 
-    <!--[if lte IE 7]>
-	<link rel="stylesheet" media="screen,projection,tv" href="//mozorg.cdn.mozilla.net/media/css/partners-ie7-min.css?build=a859779" />
-	<![endif]-->
-    <!--<script id="undefined" src="fichiers/inpage_linkid.js" async="" type="text/javascript"></script>
-	<script src="fichiers/ga.js" async=""
-		type="text/javascript"></script>-->
     <script>
-      COMMON_JS_FILES = [];//"fichiers/common.js"];
-      MOBILE_JS_FILES = [""];//mozorg.cdn.mozilla.net/media/js/partners_mobile-min.js?build=a859779];
+      COMMON_JS_FILES = [];
+      MOBILE_JS_FILES = [""];
       DESKTOP_JS_FILES = ["fichiers/desktop.js"];
     </script>
     <script src="fichiers/common.js"></script>
@@ -69,7 +58,6 @@
         </td>
       </tr>
     </table> 
-
 
     <div id="outer-wrapper">
       <div id="wrapper">
@@ -116,8 +104,8 @@
 		<h2>Flexible. Strongly flexible.</h2>
 		<div class="intro">
 		  
-		  <p>Shinken is a monitoring tool. It's a totaly
-		    rewrite from scratch Nagios for enhanced
+		  <p>Shinken is a monitoring tool. It's a Nagios core
+		    fork totaly rewrite from scratch in Python for enhanced
 		    flexibility and large environnement
 		    management.</p>
 		  <p>
@@ -137,7 +125,6 @@
 		</div>
 	      </div>
             </section>
-
 
 	  </article>
 
@@ -551,10 +538,22 @@
             </p>
           </div>
           <ul class="footer-nav">
-            <li><a href="mailto:naparuba@gmail.com">Contact us</a></li>
-            <li><a href="https://twitter.com/shinken_monitor">Twitter</a></li>
-            <li><a href="https://plus.google.com/u/0/b/104169286213171380189/104169286213171380189">Google+</a></li>
-            <li><a href="http://github.com/naparuba/shinken/">Source code</a></li>
+            <li><a href="mailto:naparuba@gmail.com">
+		<img src="fichiers/img/mail.svg" width="14px"/>
+		Contact us</a></li>
+            <li><a href="https://twitter.com/shinken_monitor">
+		<img src="fichiers/img/twitter.svg" width="14px"/>
+		Twitter
+	    </a></li>
+            <li>
+	      <a href="https://plus.google.com/u/0/b/104169286213171380189/104169286213171380189">
+		<img src="fichiers/img/gplus.svg" width="14px"/>
+		Google+
+	      </a>
+	    </li>
+            <li><a href="http://github.com/naparuba/shinken/">
+		<img src="fichiers/img/github.svg" width="14px"/>
+		Source code</a></li>
           </ul>
 	</div>
       </footer>
