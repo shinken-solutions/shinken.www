@@ -2365,3 +2365,15 @@ margin: 60px auto
     text-align: center;
     background-color: white;
 }
+
+
+
+
+
+
+/********* SCREENSHOTS **********/
+.screenshot{
+    width:30%;
+    margin: 10px;
+    float:left;
+}
