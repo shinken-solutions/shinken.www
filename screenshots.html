@@ -27,6 +27,9 @@
     <link rel="stylesheet" media="screen,projection,tv" href="fichiers/responsive.css">    
     <link rel="stylesheet" media="screen,projection,tv" href="fichiers/partners.css">
 
+    <link rel="stylesheet" href="fichiers/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="fichiers/fancybox/jquery.fancybox.pack.js"></script>
+
 
     <!--[if lte IE 7]>
 	<link rel="stylesheet" media="screen,projection,tv" href="//mozorg.cdn.mozilla.net/media/css/partners-ie7-min.css?build=a859779" />
@@ -47,9 +50,6 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="We’re buiding a great monitoring tool, focus on large env, with complex architecture">
     
-    
-    <script src="fichiers/site-min.js"></script>
-
   </head>
   
   <body id="firefox-partners" class="html-ltr sky">
@@ -99,41 +99,23 @@
 	      
 	      <div class="article-content">
 		<h2>
-		  <img src='fichiers/img/download.png' width='64px;'> Download</h2>
+		  <img src='fichiers/img/download.png' width='64px;'>
+		  Screenshots
+		</h2>
 		<div class="well">
-		  <div class="">
-		    <p style="width:100%;margin-bottom:0px;">
-		      <img src="fichiers/img/redhat.png" alt="RedHat" width='48px'> 
-		      <img src="fichiers/img/centos.png" alt="Centos" width='48px'> 
-		      <img src="fichiers/img/debian.png" alt="Debian" width='48px'> 
-		      <img src="fichiers/img/ubuntu.png" alt="Ubuntu" width='48px'> 
-		      <span class="journal">Common linux </span>
-		      <img src='fichiers/img/partners-arrow.png'>
-		      <span class="curl-install">
-			# curl -L http://install.shinken-monitoring.org | /bin/bash
-		      </span>
-		    </p>
-		  </div>
-		  <div class="" style="">
-		    <p>
-		      <img src="fichiers/img/windows.png" alt="Windows" width='48px'> 
-		      <img src="fichiers/img/linux.png" alt="Linux" width='48px'> 
-		      <span class='journal'>Another OS? Get the
-		      tarball</span> 
-		      <img src='fichiers/img/partners-arrow.png'>
-		      <a style="margin-left:25px;" href="pub/tarball.tar.gz" class="button toggle-form">Here</a>
-		    </p>
-		  </div>
-		  <div style="width:100%;float:left;">
-		    <p id="more-partners">          And then go to the <a href="http://www.shinken-monitoring.org/wiki/shinken_10min_start"> 10min start tutorial</a> to know how to configure your new monitoring tool!
-		    </p>
-		  </div>
-		</div>
-		<div class="well" style="width:80%;margin-left:auto;margin-right:auto;">
-		  <span class='journal'>
-		    <img src='fichiers/img/partners-arrow.png'> Then you can follow the <a href="http://www.shinken-monitoring.org/wiki/shinken_10min_start">10min startup guide</a> and
-		    enjoy your new monitoring system.
-		  </span>
+
+		  <a class="fancybox" rel="group" title="Root problems view" href="fichiers/img/screenshots/problems.png"><img src="fichiers/img/screenshots/problems.png" alt="" width="150px"/></a>
+
+		  <a class="fancybox" rel="group" title="Business apps view"  href="fichiers/img/screenshots/impacts.png"><img src="fichiers/img/screenshots/impacts.png" alt="" width="150px"/></a>
+
+		  <a class="fancybox" rel="group" title="Link graph"  href="fichiers/img/screenshots/depgraph.png"><img src="fichiers/img/screenshots/depgraph.png" alt="" width="150px"/></a>
+
+		  <a class="fancybox" rel="group" title="Server view"  href="fichiers/img/screenshots/host.png"><img src="fichiers/img/screenshots/host.png" alt="" width="150px"/></a>
+
+		  <a class="fancybox" rel="group" title="NagVis"  href="fichiers/img/screenshots/nagvis.jpg"><img src="fichiers/img/screenshots/nagvis.jpg" alt="" width="150px"/></a>
+
+		  <a class="fancybox" rel="group" title="Dashboard" href="fichiers/img/screenshots/dashboard.png"><img src="fichiers/img/screenshots/dashboard.png" alt="" width="150px"/></a>
+
 		</div>
 	      </div>
             </section>
@@ -179,6 +161,14 @@
 
     <!--<script src="fichiers/tabzilla.js"></script> -->
     <!--<script src="fichiers/partners-min.js"></script>-->
+
+
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+         $(".fancybox").fancybox();
+      });
+    </script>
     
     <div style="display: none;" id="pageslide"></div>
   </body>
