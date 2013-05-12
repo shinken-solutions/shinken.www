@@ -1024,6 +1024,10 @@ body.noscroll {
     padding: 40px 0
 }
 
+.partner-article .article-content-high{
+    padding: 0 0;
+}
+
 .partner-article .article-content h2 {
     float: left;
     width: 620px;
@@ -2373,7 +2377,15 @@ margin: 60px auto
 
 /********* SCREENSHOTS **********/
 .screenshot{
-    width:30%;
-    margin: 10px;
+    width: 30%;
+    margin: 6px;
     float:left;
+    border-bottom-color: #333;
+    border-collapse: separate;
+    border-left-color: #333;
+    border-right-color: #333;
+    border-top-color: #333;
+    padding:6px;
+    border:1px solid #cccccc;
+    background-color: white;
 }
