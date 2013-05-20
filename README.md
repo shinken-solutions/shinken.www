@@ -1,4 +1,4 @@
-wwwtemp
+shinken.www
 =======
 
-Temporary repo for a new webiste propoal
+New website for the Shinken project
