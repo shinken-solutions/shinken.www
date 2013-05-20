@@ -41,6 +41,30 @@
     box-shadow: 0 2px 1px rgba(0,0,0,0.1) inset,0 0 8px 0 rgba(175,50,50,0.6)
 }
 
+.tanuk{
+    position:absolute;
+    bottom:200px;
+    right: 100px;
+    float:right;
+    z-index:0;
+    
+}
+
+.tanuk_show{
+    position:absolute;
+    bottom:200px;
+    left:20px;
+    float:left;
+}
+
+.tanuk_up{
+    position:absolute;
+    bottom:15px;
+    left:20px;
+    float:left;
+    z-index:30;
+}
+
 .logos {
     list-style-type: none;
     padding: 0;
