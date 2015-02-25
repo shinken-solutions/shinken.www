@@ -9,7 +9,6 @@
             <li><a target="_blank" href="https://github.com/naparuba/shinken/">Source Code</a></li>
         </ul>  
         <ul class="col-sm-2 col-xs-6">
-            <li><a target="_blank" href="showcase.php">Showcase</a></li>
             <li><a target="_blank" href="download.php">Download</a></li>
             <li><a href="mailto:naparuba@gmail.com">Contact Us</a></li>
         </ul>                   
