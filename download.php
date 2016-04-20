@@ -14,7 +14,7 @@ $title = "Shinken Monitoring - Download";
                 <p># pip install shinken</p>
                 <hr>
                 <h3>Another OS ? get the tarball : </h3>
-                <a href="https://github.com/naparuba/shinken/archive/2.2.tar.gz" class="btn btn-danger">2.2 version</a>
+                <a href="https://github.com/naparuba/shinken/archive/2.4.3.tar.gz" class="btn btn-danger">2.4.3 version</a>
                 <hr>
                 <h4>Then you can follow the <a target='_blank' href="https://shinken.readthedocs.org/en/latest/02_gettingstarted/installations/shinken-installation.html">10min startup</a> guide and enjoy your new monitoring system. </h4>
             </li>
