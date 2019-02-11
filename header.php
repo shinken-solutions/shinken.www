@@ -89,9 +89,6 @@
                         <a href="download.php">Download</a>
                     </li>
                     <li>
-                        <a href="http://forum.shinken-monitoring.org">Forum</a>
-                    </li>
-                    <li>
                       <a href="http://shinken.readthedocs.org/">Documentation</a>
                     </li>
 
