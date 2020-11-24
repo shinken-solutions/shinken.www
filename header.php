@@ -16,7 +16,8 @@
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.lavalamp.js"></script>
     <script src="js/jquery.lightbox.min.js"></script>   
-    
+
+
 </head>
 <body>
     <div id="Web_Map">
@@ -25,7 +26,7 @@
                 <div class="Content">
                     <a href="http://shinken-solutions.com" target="_blank">                
                         <div class="Logo_Frame">
-                                <img alt="Logo Ninja Solutions Shinken Monitoring" class="Logo" src="img/NinjaGrey.png">
+                                <img alt="Logo Ninja Solutions Shinken Monitoring" class="Logo" src="img/NinjaBlue.png">
                                 <p class="Title_Map">shinken-solutions.com</p> 
                                 <p>Business-centric monitoring</p>   
                         </div> 
@@ -85,24 +86,41 @@
                     <li>
                         <a href="index.php">Home</a>
                     </li>
-                    <li>
+		    <li>
                         <a href="download.php">Download</a>
                     </li>
+		    <!--
+			// JEAN - 24 nov 2020: je ne sais aps pourquoi mais les clicks sur le dropdown ne marchent pas
                     <li>
+		      <div class="" style="position: relative;padding-top: 25px;padding-bottom: 25px;color: #777;">
+			<div class="dropdown-toggle" type="button" id="dropdown_doc" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			  Documentation
+			  <span class="caret"></span>
+			</div>
+			<ul class="dropdown-menu" aria-labelledby="dropdown_doc">
+			  <li id="doc_opensource"><a href="http://shinken.readthedocs.org/" target="_blank">Open Source documentation</a></li>
+			  <li id="doc_enterprise"><a href="http://doc.shinken-solutions.com" target="_blank">Enterprise documentation</a></li>
+			</ul>
+
+		      </div>
+		      -->
+		    <li>
                       <a href="http://shinken.readthedocs.org/">Documentation</a>
                     </li>
 
                 </ul>
+		<!--
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <img alt="Corners Dropdown Shinken Framework" src="img/Corners.png" id="CornerL">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown open">
                             <span class="caret"></span>
                             <img alt="" src="img/LogoMonogrammeWhite.png" class="Dropdown_Logo">
                         </a>
                         <img alt="Corners Shinken Solutions Dropdown" src="img/CornersR.png"  id="CornerR">
                     </li>
                 </ul>
+		-->
             </div>
         </div>
     </nav>

@@ -76,6 +76,7 @@ $( document ).ready(function() {
     });
 
 
+    /*
     $( "#Lavalamp li" ).bind('mouseenter', function()  {
     $(this).next(".HoverMenu").slideDown( "fast")
     });
@@ -83,6 +84,7 @@ $( document ).ready(function() {
     $( "#Lavalamp li" ).next(".HoverMenu").bind('mouseleave', function()  {
     $(this).slideUp( "fast")
     });
+*/
     
     
     var HeightSlide = $("#Slide1").innerHeight();

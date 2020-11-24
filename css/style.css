@@ -19,10 +19,34 @@
 .Mascote {
     position: absolute;
     right: 50px;
+    bottom: 60px;
+    z-index: 5;
+    opacity: 0.75;
+}
+
+.Mascote_enterprise {
+    position: absolute;
+    left: 0px;
     bottom: 50px;
     z-index: 5;
     opacity: 0.75;
 }
+
+
+#download_open_source{
+    position: absolute;
+    right: 60px;
+    min-width: 200px;
+    background-color: #71bf44;
+    border-color: #528a32;
+}
+
+#download_enterprise{
+    position: absolute;
+    left: 60px;
+    min-width: 200px;
+}
+
 
 .LogoIO {
     margin: 20px auto 0px auto;
@@ -149,7 +173,7 @@ body {
 /* ------------- Web_Map ------------- */
 
 #Web_Map {
-    display: none;
+    /*display: none;*/
     color: #ededed;
     box-shadow: 0 0 20px rgba(0,0,0,0.25) inset;
 } 

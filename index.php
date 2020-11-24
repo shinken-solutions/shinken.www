@@ -38,17 +38,20 @@ $title = "Shinken Monitoring - Index";
                 </ul>
             </li>
         </ul>
-<a href="https://github.com/naparuba/shinken"><img style="position: absolute; top: 40; right: 0; border: 0;z-index:1000;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+<!--<a href="https://github.com/naparuba/shinken"><img style="position: absolute; top: 40; right: 0; border: 0;z-index:1000;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>-->
         
     <div class="Slide row" id="Slide1">
         <div class="Gradient"></div>
         <div class="row">
             <div class="col-md-2">
+
             </div>
             <div class="col-md-8">
+              <img alt="Mascote" class="Mascote_enterprise" src="img/mascote_enterprise.png">       
+              <img alt="Mascote" class="Mascote" src="img/mascote.png">       
                 <h1>Flexible. Strongly flexible.</h1>
-                <p>Shinken is a monitoring framework. It's a Python Nagios® Core total</p>
-                <p>rewrite enhancing flexibility and large environment management.</p>
+                <p>Shinken is a monitoring Solution. It's a Python Nagios® Core total</p>
+                <p>and large environment management.</p>
                 <ul>
                     <li><img alt="Ready to run monitoring packs" src="img/CheckIcon.png"><a href="#Slide2">Ready to run monitoring packs</a></li>
                     <li><img alt="Endless scalability and RAID-like availability" src="img/CheckIcon.png"><a href="#Slide3">Endless scalability and RAID-like availability</a></li>
@@ -56,10 +59,11 @@ $title = "Shinken Monitoring - Index";
                     <li><img alt="Full virtualization integration" src="img/CheckIcon.png"><a href="#Slide5">Full virtualization integration</a></li>
                     <li><img alt="Keep your Nagios® configuration and plugins" src="img/CheckIcon.png">Keep your Nagios® configuration and plugins</li>       
                 </ul>
-                <a href="download.php" class="btn btn-md btn-primary"><img alt="Download Shinken Framework" src="img/DownloadIcon.png">Download it !</a>
+                <a id="download_open_source" href="download.php" class="btn btn-md btn-primary"><img alt="Download Shinken Framework" src="img/DownloadIcon.png">Download Free<br>Open Source version</a>
+                <a id="download_enterprise" href="https://www.shinken-enterprise.com/contact/" class="btn btn-md btn-primary"><img alt="Ask for a quote for Shinken Enterprise" src="img/DownloadIcon.png">Try the Full version<br>( Shinken Entreprise )</a>
             </div>
             <div class="col-md-2">
-                 <img alt="Mascote" class="Mascote" src="img/mascote.png">       
+
             </div>
         </div>
     </div>
