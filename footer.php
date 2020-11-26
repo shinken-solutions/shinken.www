@@ -5,7 +5,6 @@
         </div>
         <ul class="col-sm-2 col-xs-6">
             <li><a target="_blank" href="https://twitter.com/shinken_monitor">Twitter</a></li>
-            <li><a target="_blank" href="https://plus.google.com/+shinken">Google+</a></li>
             <li><a target="_blank" href="https://github.com/naparuba/shinken/">Source Code</a></li>
         </ul>  
         <ul class="col-sm-2 col-xs-6">
