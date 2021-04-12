@@ -60,7 +60,7 @@ $title = "Shinken Monitoring - Index";
                     <li><img alt="Keep your Nagios® configuration and plugins" src="img/CheckIcon.png">Keep your Nagios® configuration and plugins</li>       
                 </ul>
                 <a id="download_open_source" href="download.php" class="btn btn-md btn-primary"><img alt="Download Shinken Framework" src="img/DownloadIcon.png">Download Free<br>Open Source version</a>
-                <a id="download_enterprise" href="https://www.shinken-enterprise.com/contact/" class="btn btn-md btn-primary"><img alt="Ask for a quote for Shinken Enterprise" src="img/DownloadIcon.png">Try the Full version<br>( Shinken Entreprise )</a>
+                <a id="download_enterprise" href="https://www.shinken-enterprise.com/contact/" class="btn btn-md btn-primary"><img alt="Ask for a quote for Shinken Enterprise" src="img/DownloadIcon.png">Try the Full version<br>( Shinken Enterprise )</a>
             </div>
             <div class="col-md-2">
 
